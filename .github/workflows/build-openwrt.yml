@@ -11,6 +11,8 @@
 name: Redmi_AX6_5.10.100
 
 on:
+  schedule:
+    - cron: '0 12 * * *'
   repository_dispatch:
   workflow_dispatch:
     inputs:
