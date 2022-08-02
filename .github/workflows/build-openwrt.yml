@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Redmi_AX6_5.10.100
+name: Redmi_AX6
 
 on:
   schedule:
@@ -22,7 +22,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/secdn/lede
+  REPO_URL: https://github.com/xxxhh/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX6_5.10.100.config
